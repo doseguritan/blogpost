@@ -1,24 +1,61 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 📝 Table of Contents
 
-Things you may want to cover:
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Usage](#usage)
+- [TODO](../TODO.md)
 
-* Ruby version
+## 🧐 About <a name = "about"></a>
 
-* System dependencies
+This is a blog post exam.
 
-* Configuration
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-* Database creation
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-* Database initialization
+### Prerequisites
 
-* How to run the test suite
+What things you need to install the software and how to install them.
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+sudo apt install redis-server
+```
 
-* Deployment instructions
+Install asdf to install ruby, nodejs and yarn. Please visit the link
+https://asdf-vm.com/guide/getting-started.html
+### Needed Versions
+```
+ruby 3.4.2
+node 22.12.0
+yarn 1.22.22
+```
 
-* ...
+### Installing
+
+A step by step series of examples that tell you how to get a development env running.
+
+Say what the step will be
+
+```
+cd /path/to/project
+bundle install
+yarn
+rails db:create db:migrate db:seed
+```
+
+End with an example of getting some data out of the system or using it for a little demo.
+
+## 🔧 Running the tests <a name = "tests"></a>
+
+
+```
+rails test
+```
+
+## 🎈 Usage <a name="usage"></a>
+
+```
+cd /path/to/project
+bin/dev Procfile.dev
+```
